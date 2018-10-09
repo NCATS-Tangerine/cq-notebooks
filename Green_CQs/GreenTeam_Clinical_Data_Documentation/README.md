@@ -99,7 +99,7 @@ Patients with an asthma-like phenotype were defined as follows:[1]
 
 *3.	Patients with a diagnostic code for a respiratory condition other than asthma and prescribed tests or procedures that are typically used to diagnosis asthma; or*
 
-*4.	Patients with a diagnostic code for a respiratory condition other than asthma and frequent ED visits with albuterol nebulizer administered.*
+*4.	Patients with a diagnostic code for a respiratory condition other than asthma and frequent ED visits with albuterol nebulizer administered. [This wasn't an explicit criterion, but rather was captured by criterion two]*
 
 ## General Comments on Regulatory Constraints and Acknowledgements
 
