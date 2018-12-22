@@ -43,7 +43,7 @@ The **fully identified patient dataset** is comprised of real observational data
 
 ## HuSH+ Patient Dataset
 
-The **HuSH+ patient dataset** is comprised of real observational data on ~16,000 hypothetical patients with an asthma-like phenotype (defined below). The HuSH+ dataset was created using the fully identified patient dataset, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient dataset has achieved HIPAA compliance through the following operations.
+The **HuSH+ patient dataset** is comprised of real observational data on ~16,000 hypothetical patients with an asthma-like phenotype (defined below). The HuSH+ dataset was created using the fully identified patient dataset described above, but it is completely compliant with §164.514(b) of [HIPAA, 'Safe Harbor' method for patient de-identification of medical records](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification). Specifically, the HuSH+ patient dataset has achieved HIPAA compliance through the following operations.
 
 *1.	Real patient identifiers (including geocodes) were replaced with random patient identifiers.*
 
@@ -84,6 +84,12 @@ ICEES can be used for scientific inference and discovery, although important cav
 *4. All inferences must be made with respect to the binning strategy, 'study' design, and type of integrated feature table.* 
 
 *Access to ICEES is open to all Translator team members and is not subject to regulatory constraints.*
+
+Additional versioning information regarding geocodes:
+
+*1. ICEES integrated feature tables, v1.0.0 - patient- and visit-level tables are available from years 2010 and 2011; geocodes are from year 2016.*
+
+*2. ICEES integrated feature tables, v2.0.0. - patient- and visit-level tables are available for years 2010, 2011, 2012, 2013, 2015, and 2016; geocodes are from year 2018.*
 
 **[ICEES API](https://icees.renci.org/apidocs/)**
 
