@@ -89,7 +89,7 @@ Additional versioning information regarding geocodes:
 
 *1. ICEES integrated feature tables, v1.0.0 - patient- and visit-level tables are available from years 2010 and 2011; geocodes are from year 2016.*
 
-*2. ICEES integrated feature tables, v2.0.0. - patient- and visit-level tables are available for years 2010, 2011, 2012, 2013, 2015, and 2016; geocodes are from year 2018.*
+*2. ICEES integrated feature tables, v2.0.0. - patient- and visit-level tables are available for years 2010, 2011, 2012, 2013, 2015, and 2016; geocodes are from year 2018. Historical geocodes are avaiable yearly for 2016+*
 
 **[ICEES API](https://icees.renci.org/apidocs/)**
 
