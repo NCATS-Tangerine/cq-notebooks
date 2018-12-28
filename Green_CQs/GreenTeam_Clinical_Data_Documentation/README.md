@@ -25,7 +25,7 @@ For the NCATS Biomedical Translator project, Green Team has created three sets o
 
 The **fully identified patient dataset** is comprised of real observational data on ~160,000 patients with an ‘asthma-like’ phenotype (defined below) from UNC Health Care System’s Carolina Data Warehouse for Health (CDWH). As such, the data can be used for clinical interpretation, scientific inference, and discovery. Important caveats are listed below.
 
-*1.	Geocodes represent patient home location in Feb 2016; discussions are underway with the CDWH Oversight Commmittee regarding a more regular batch upload and treatment of historical data.*
+*1.	Geocodes represent patient home location at the time the data are pulled; NC TraCS began geocoding in 2016, with roughly quarterly updates to CDWH; historical data are retained and available upon request.*
 
 *2.	age_in_years_num variable is entered by the provider at each visit and thus is not as reliable as calculating age from birth date and date of visit.*
 
@@ -89,7 +89,7 @@ Additional versioning information regarding geocodes:
 
 *1. ICEES integrated feature tables, v1.0.0 - patient- and visit-level tables are available from years 2010 and 2011; geocodes are from year 2016.*
 
-*2. ICEES integrated feature tables, v2.0.0. - patient- and visit-level tables are available for years 2010, 2011, 2012, 2013, 2015, and 2016; geocodes are from year 2018. Historical geocodes are avaiable yearly for 2016+*
+*2. ICEES integrated feature tables, v2.0.0. - patient- and visit-level tables are available for years 2010, 2011, 2012, 2013, 2015, and 2016; geocodes are from year 2018. Historical geocodes are avaiable for 2016+*
 
 **[ICEES API](https://icees.renci.org/apidocs/)**
 
