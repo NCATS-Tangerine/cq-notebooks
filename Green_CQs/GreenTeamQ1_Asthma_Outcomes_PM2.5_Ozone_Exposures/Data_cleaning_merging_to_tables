@@ -1,0 +1,32 @@
+Code
+-----
+1) Join_Hush.ipynb
+2) ...
+
+
+General Rules for Cleaning and Merging Data (case example with HuSH+)
+----------------------------------------------------------------------
+A) CLEANING
+  1) Removing non-sensical records
+     a) >7000 records had start date at year 2099
+     b) 1 record where patient_num (patient ID) was NaN 
+
+B) MERGING
+
+Curently, each "record" or row in the original tables provides the value of one clinical/biological feature for one patient and clinical "encounter".
+A record is a single measurement or value recorded for a patient. For example, a CBC white blood cell count that was ordered on a patient's
+first day in the hospital consitutes one "record". A CBC white blood cell conut on the second day, or a completely different lab experimental
+type, for the same patient would constitute a different "record".
+
+A major goal is to convert this "long"-format of a table of records into a "wide"-format episode-by-feature table, where each episode represents the entirety
+a patient's visit to a clinic. For example, if a patient enters the Emergency Dept on Day 1, and then is admitted to be InPatient on Day 2,
+and then is discharged on Day 3, and finally has a follow up as an OutPatient on Day 4, then Day 1-4 constitutes one episode for that patient.
+
+  1) Time-window strategy for aggregating records into episodes
+     a) For a single patient, we aggregate all of the patient's records and sort the records by the timestamp for which they were recorded.
+        To identify an episode, we identify a series of records for which every two consecutive records are no farther separated in time
+        than a predefined time gap. Here, as a first pass, we have defined this time gap as 1 day.
+     b) Currently, all records only have a "start_date" but no "end_date" recorded. This rule for time-window aggregation will need to be
+        updated 
+
+
